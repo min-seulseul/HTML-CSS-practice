@@ -1,0 +1,31 @@
+/*Cascading Style Sheet*/
+/* selector{
+  property: value;
+} */
+
+*{
+    color: green;
+  }
+  
+  li {   /*type*/
+    color:blue;
+  }
+  
+  li#special {  /*id*/
+    color:pink;
+  }
+  
+  .red{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+  }
+  
+  button:hover {
+    color: red;
+    background: beige;
+  }
+  
+  a[href$=".com"]{
+    color: purple;
+  }

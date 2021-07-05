@@ -1,0 +1,39 @@
+/*div, span{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    background: pink;
+    
+  }
+  
+  div{
+    background: red;
+    display: inline-block; //inline은 내용만 꾸며줌, inline-block은 지정한 box 사이즈에 맞춰서
+  }
+  
+  span{
+    background: Blue;
+    display: block;
+  }*/
+
+  div, span{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    background: red;
+    
+  }
+  
+  .container{
+    background: yellow;
+    left: 20px;
+    top: 20px;
+    position: relative;
+  }
+  
+  .box{
+    background: blue;
+    left: 20px;
+    top: 20px;
+    position: sticky; /*static, relative, absolute, fixed, sticky*/
+  }
